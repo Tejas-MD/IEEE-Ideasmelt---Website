@@ -12,7 +12,26 @@
 		<h2>Problem Statement</h2>
 		<p>Sample Problem Statement</p>
 	</section>
-    <button id="button">Submit</button>
-	<script src="script.js"></script>
+    <div class="container">
+        <button id="btn">
+            <p id="btnText">Link to Submit</p>
+            <div class="check-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                </svg>
+            </div>
+        </button>
+    </div>
+    <script type="text/javascript">
+        const btn = document.querySelector("#btn");
+        const btnText = document.querySelector("#btnText");
+
+        btn.onclick = () => {
+            btnText.innerHTML = "Thanks";
+            btn.classList.add("active");
+            window.open("https://www.google.com/forms/", "_blank");
+
+        };
+    </script>	<script src="script.js"></script>
 </body>
 </html>
