@@ -1,0 +1,24 @@
+header {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  section {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
