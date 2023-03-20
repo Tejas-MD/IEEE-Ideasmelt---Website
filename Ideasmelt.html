@@ -5,14 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>IEEE IdeaSmelt</h1>
-	</header>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1>IEEE IdeaSmelt</h1>
+          <p>Where problem statements add value</p>
+        </div>
+      </div>
+	<!-- <header> -->
+		<!-- <h1>IEEE IdeaSmelt</h1/> -->
+	<!-- </header> -->
 	<section>
 		<h2>Problem Statement</h2>
 		<p>The current security entrance check system only verifies the tags on the ID card and not the actual card, which could result in potential security breaches. The problem statement aims to identify a technology that can efficiently and securely verify the ID card's authenticity without causing any inconvenience to the user. The proposed solution should be practical, easy to use, and cost-effective. The system should also be capable of preventing unauthorized access while providing a smooth entry experience for authorized personnel.</p>  
 	</section>
-    <div class="container">
+   <center> <div class="container">
         <button id="btn">
             <p id="btnText">Submit Solution</p>
             <div class="check-box">
@@ -21,17 +27,6 @@
                 </svg>
             </div>
         </button>
-    </div>
-    <script type="text/javascript">
-        const btn = document.querySelector("#btn");
-        const btnText = document.querySelector("#btnText");
-
-        btn.onclick = () => {
-            btnText.innerHTML = "Thanks";
-            btn.classList.add("active");
-            window.open("https://www.google.com/forms/", "_blank");
-
-        };
-    </script>	<script src="script.js"></script>
+    </div></center>
 </body>
 </html>
