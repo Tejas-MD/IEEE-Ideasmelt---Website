@@ -4,6 +4,6 @@
   btn.onclick = () => {
       btnText.innerHTML = "Thanks";
       btn.classList.add("active");
-      window.open("https://www.google.com/forms/", "_blank");
+      window.open("https://docs.google.com/forms/u/0/?tgif=d", "_self");
 
   };
