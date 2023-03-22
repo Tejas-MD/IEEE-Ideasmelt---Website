@@ -24,24 +24,25 @@ body{
     text-align: center;
     text-transform: uppercase;
     margin:5px;
-
     padding:0;
     color: #cc7713;
     margin-bottom: 20px;
 }
-
 
 a, a:hover, a:focus, a:active, a:visited, a:link {
   text-decoration: none;
    color: #000;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
 }
 
+::-webkit-scrollbar {
+  width: 2px;
+  scrollbar-width: thin;
+}
 
 .heading th {
   background-color: #e6e6e6 !important;
