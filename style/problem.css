@@ -24,4 +24,12 @@
     padding: 20px;
 }
 
+.submission {
+    padding: 20px;
+}
 
+@media screen and (max-width: 880px) {
+    .submission iframe{
+        width: 100%;
+    }
+}
