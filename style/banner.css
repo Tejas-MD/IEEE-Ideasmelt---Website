@@ -57,3 +57,54 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+
+/*steps*/
+
+.box
+{
+    margin: 2vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+}
+
+.box .step
+{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+
+.box .step >img
+{
+    width: 20vw;
+}
+
+.box .step .step1,.step2,.step3
+{
+    margin: 10vh; 
+}
+
+
+
+.step1>p,.step2>p,.step3>p
+{
+    font-size:3vh;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
