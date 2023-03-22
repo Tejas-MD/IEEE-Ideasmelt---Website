@@ -83,7 +83,6 @@ a, a:hover, a:focus, a:active, a:visited, a:link {
 .box .step
 {
     display: flex;
-    flex-direction: row;
     margin: 2vw;
 }
 
@@ -102,6 +101,22 @@ a, a:hover, a:focus, a:active, a:visited, a:link {
 .step1>p,.step2>p,.step3>p
 {
     font-size:3vh;
+}
+
+
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+   .step
+   {
+        flex-direction: column;
+   }
+
+   .step>img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;        
+}
 }
 
 .floating {  
