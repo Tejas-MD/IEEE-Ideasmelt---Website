@@ -64,9 +64,14 @@ html {
 a, a:hover, a:focus, a:active, a:visited, a:link {
     text-decoration: none;
      color: #000;
-  }
-
 }
+
+/* navigation and breadcrums mix */
+.navmenu {
+    background-color: #e9ecef;
+}
+
+
 
 
 /*steps*/
