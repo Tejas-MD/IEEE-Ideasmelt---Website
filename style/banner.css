@@ -59,3 +59,38 @@ header {
 }
 
 
+/* If you don't want the header to be responsive, remove these media queries */
+/*if the screen is less than 500px wide, the header will have a font-size of 20px*/
+@media screen and (max-width: 880px) {
+    .hero-text h1 {
+        font-size: 30px;
+    }
+    .hero-text p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hero-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+    }
+
+    .problem_statement p{
+        font-size: 14px;
+        width: auto;
+    }
+
+    .problem_statement h2 {
+        font-size: 25px;
+        width: max-content;
+    }
+}
+
+/* if the screen greater than 880px make the width max-content */
+@media screen and (min-width: 880px) {
+    .hero-text{
+        width: max-content;
+    }
+}
