@@ -39,8 +39,8 @@ table {
   border-collapse: collapse;
 }
 
-.heading td {
-  background-color: #686868 !important;
+.heading th {
+  background-color: #cbc8c8 !important;
 }
 
 th, td {
